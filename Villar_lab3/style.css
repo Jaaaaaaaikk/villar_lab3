@@ -1,0 +1,59 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(to bottom right, rgb(180, 75, 165),rgb(75, 151, 212));
+}
+.border-container {
+    display: flex;
+    justify-content: center;
+}
+
+.border-container > div {
+    width: 20%;
+    padding: 20px;
+    margin: 20px;
+}
+
+.border1 {
+    border: 5px solid blue;
+    border-left-style: dotted;
+    border-right-style: dashed;
+    border-top-color: chartreuse;
+    border-bottom-color:rgb(17, 189, 54);
+    font-weight: 400;
+}
+
+.border2 {
+    border: 5px solid green;
+    border-left-style: dashed;
+    border-right-style: dotted;
+    border-top-color: rgb(14, 42, 44);
+    border-bottom-color:rgb(150, 71, 6);
+}
+
+.border3 {
+    border: 5px solid red;
+    border-left-style: dotted;
+    border-right-style: dashed;
+    border-top-color: rgb(4, 104, 82);
+    border-bottom-color:rgb(146, 15, 33);
+}
+
+.border4 {
+    border: 5px solid orange;
+    border-left-style: dashed;
+    border-right-style: dotted;
+    border-top-color: rgb(83, 127, 194);
+    border-bottom-color:rgb(68, 6, 150);
+}
+
+h2 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
